@@ -1,0 +1,145 @@
+html {
+  background-color: #BBBBBB;
+}
+
+body {
+  background-color: #1836DD;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (max-width: 1500px) {
+  body {
+  background-color: #1836DD;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+  background-color: #1836DD;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+}
+
+a {
+  color: #EEEE00;
+}
+
+a:active {
+  color: #DDDD00;
+}
+
+a:visited {
+  color: #BBBB00;
+}
+
+h1 {
+  text-align: center;
+  color: #DD9900;
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #DD9900;
+  font-family: monochrome;
+  font-size: 17px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  color: #DD9900;
+  font-family: monochrome;
+  font-size: 17px;
+  font-style: italic;
+}
+
+header {
+ text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 40px;
+  color: #DDDDDD;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 17px;
+}
+
+@media (max-width: 750px) {
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #DDDDDD;
+    line-height: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1500px) {
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #DDDDDD;
+    line-height: 35px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 17px;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+#title-img {
+  display: block;
+  margin: auto;
+  height: 250px;
+  max-width: 100%;
+  box-shadow: 8px 8px 12px;
+}
+
+@media (max-width: 500px) {
+  #title-img {
+  display: block;
+  margin: auto;
+  height: 250px;
+  max-width: 350px;
+  box-shadow: 8px 8px 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  #title-img {
+  display: block;
+  margin: auto;
+  height: 250px;
+  max-width: 300px;
+  box-shadow: 8px 8px 12px;
+  }
+}
+
+ #image {
+  display: block;
+  margin: auto;
+  max-width: 99%;
+  max-height: auto;
+}
+
+#img-div {
+
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 315px;
+}
